@@ -1,0 +1,96 @@
+<html>
+<head>
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.css">
+    <title></title>
+    <style>
+
+        p.pos_fixed {
+            position: fixed;
+            top: 30px;
+            left: 5px;
+            color: red;
+        }
+.style-3 input[type="text"] {
+  padding: 10px;
+  border: solid 5px #c9c9c9;
+  box-shadow: inset 0 0 0 1px #707070;
+  transition: box-shadow 0.3s, border 0.3s;
+}
+.style-3 input[type="text"]:focus,
+.style-3 input[type="text"].focus {
+  border: solid 5px #969696;
+}
+.chat_global{
+ position: fixed;
+    top: 15px;
+    left: 500px;
+}
+.myButton {
+    background-color:#44c767;
+    -moz-border-radius:14px;
+    -webkit-border-radius:14px;
+    border-radius:14px;
+    border:1px solid #18ab29;
+    display:inline-block;
+    cursor:pointer;
+    color:#ffffff;
+    font-family:Arial;
+    font-size:14px;
+    padding:8px 15px;
+    text-decoration:none;
+    text-shadow:0px 1px 0px #2f6627;
+}
+.myButton:hover {
+    background-color:#5cbf2a;
+}
+.myButton:active {
+    position:relative;
+    top:1px;
+}
+.chat1 {
+    background-color:#44c767;
+    border:1px solid #18ab29;
+}
+.chat2 {
+    background-color: yellow;
+    border:1px solid #18ab29;
+
+}
+
+    </style>
+   <script src="sweetalert.min.js"></script> 
+   <link rel="stylesheet" type="text/css" href="sweetalert.css">
+</head>
+<body style="background-color=blue ; ">
+
+    <canvas id="myCanvas" width="480" height="480" style="border:1px solid #c3c3c3;">
+        <input type="button" value="test" />
+    </canvas>
+   <script src="socket.io.js"></script> 
+   <script src="game.js"></script> 
+
+
+  
+<span id="turni"  style="font-weight: bold "  ></span>
+<br/>
+<div     class ="chat_global" >
+
+<input class="style-3" id ="string_cha" type="text" name="firstname">
+<button  id="btn1" class="myButton" type="button"  onclick='chaat(document.getElementById("string_cha").value)' >envoyer</button>
+<div ><span class="chat" id="chatzone1"></span></div>
+<div ><span  class="chat" id="chatzone2"></span></div>
+<div><span  class="chat" id="chatzone3"></span></div>
+<div><span  class="chat" id="chatzone4"></span></div>
+<div><span class="chat" id="chatzone5"></span></div>
+<div><span  class="chat" id="chatzone6"></span></div>
+<div><span class="chat" id="chatzone7"></span></div>
+<div><span class="chat" id="chatzone8"></span></div>
+<div><span class="chat" id="chatzone9"></span></div>
+<div><span class="chat" id="chatzone10"></span></div>
+</div>
+<button  id="btn2" class="myButton" type="button">aide</button>
+
+</body>
+
+</html>
+	
