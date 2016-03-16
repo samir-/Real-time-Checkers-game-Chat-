@@ -20,4 +20,4 @@ a port by supplying the `PORT` env variable.
 - Multiple users can join a game by each entering a  username
 on website .
 - Users can type chat messages to the chat room.
-- A notification is sent to all users when the opponent .
+- A notification is sent to all users when the opponent is connected and ready to play . 
